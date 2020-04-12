@@ -24,13 +24,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { use
 //ROUTES
 require("./routes/api-routes.js")(app);
 require("./routes/html-routes.js")(app);
-// require("./seeders/seed");
 
-
-//api routes 
-// /api/workouts =POST
-// /api/workouts/" + id =GET?
-// /api/workouts/range =GET
 app.listen(PORT, () => {
     console.log(`App running on port ${PORT}!`);
 });
