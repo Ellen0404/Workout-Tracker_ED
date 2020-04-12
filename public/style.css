@@ -5,7 +5,15 @@
   margin: 0;
   padding: 0;
 }
+body, html {
+  height: 100vh;
+  background-image: url(../images/abstract-art-artistic-background-1103970.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
 
+  }
 html,
 body,
 .wrapper {
@@ -17,14 +25,34 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #375c69;
   color: #ffffff;
   height: 80px;
   padding: 10px;
   line-height: 3;
   font-size: 1.2rem;
 }
+.ui.blue.button{
+background-color: #094b50;
+}
+.ui.blue.button:hover{
+  background-color: #116a70;
+  }
+.ui.positive.button{
+  background-color: #baa399;
 
+}
+
+.ui.positive.button:hover{
+  background-color: #b37f69;
+}
+.card{
+  background-color: rgba(245, 241, 241, 0.7) !important;
+  border:none !important
+}
+.card-deck{
+  padding-top: 20px;
+}
 a,
 a:hover,
 a:active,
@@ -96,10 +124,16 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
+  background-color: #f4f5f7;
+  background-image: url(../images/abstract-art-artistic-background-1103970.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
   padding-bottom: 100px;
 }
-
+.color{
+  background-color: #052d38;
+}
 .card.m-auto,
 .m-auto {
   margin: 0 auto;

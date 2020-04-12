@@ -1,14 +1,17 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
+var compression = require("compression");
 
 
 const PORT = process.env.PORT || 3000;
 
+
+
 const db = require("./models");
 
 const app = express();
-
+app.use(compression());
 app.use(logger("dev"));
 
 app.use(express.urlencoded({ extended: true }));
@@ -21,6 +24,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { use
 //ROUTES
 require("./routes/api-routes.js")(app);
 require("./routes/html-routes.js")(app);
+// require("./seeders/seed");
 
 
 //api routes 
