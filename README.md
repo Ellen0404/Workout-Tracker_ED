@@ -29,4 +29,4 @@ or use deployed - [Heroku link ](#Link-to-deployed-Heroku-App)
 <img src="public/images/Screen Shot 2020-04-12 at 5.18.12 PM.jpg" width = 300px><br>
 
 ## Link to deployed Heroku App
-[Workout-Tracker](https://intense-taiga-47098.herokuapp.com/)
+[Workout-Tracker](https://lit-chamber-43751.herokuapp.com/)
